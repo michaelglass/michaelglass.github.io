@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
-gem 'jekyll', '>= 2.0.0.alpha'
+gem 'jekyll', git: 'https://github.com/jekyll/jekyll.git'
 gem 'jekyll-haml'
