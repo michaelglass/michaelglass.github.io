@@ -1,0 +1,10 @@
+!!!
+%html
+  %body
+    %p
+      {% haml head.haml %}
+    {% haml header.haml %}
+    .page-content
+      .wrap
+        {{ content }}
+    {% haml footer.haml %}
