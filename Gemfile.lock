@@ -17,6 +17,8 @@ GEM
     execjs (2.0.2)
     fast-stemmer (1.0.2)
     ffi (1.9.3)
+    haml (4.0.5)
+      tilt
     jekyll (2.0.0.alpha.3)
       classifier (~> 1.3)
       colorator (~> 0.1)
@@ -32,6 +34,9 @@ GEM
       toml (~> 0.1.0)
     jekyll-coffeescript (1.0.0)
       coffee-script (~> 2.2)
+    jekyll-haml (0.1.1)
+      haml (>= 3.0.0)
+      jekyll (>= 0.10.0)
     jekyll-sass-converter (1.0.0.rc3)
       sass (~> 3.2)
     liquid (2.5.5)
@@ -55,6 +60,7 @@ GEM
     redcarpet (3.1.1)
     safe_yaml (1.0.2)
     sass (3.3.5)
+    tilt (2.0.1)
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
@@ -65,3 +71,4 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (>= 2.0.0.alpha)
+  jekyll-haml
